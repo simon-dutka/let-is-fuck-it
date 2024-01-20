@@ -2,6 +2,7 @@
     "name": "let-is-fuck-it",
     "version": "1.0.0",
     "main": "index.js",
+    "type": "module",
     "directories": {
         "example": "example"
     },
