@@ -1,5 +1,4 @@
 
 
-let strAsciiCodes = getAsciiForString(strToCompile);
 
 
