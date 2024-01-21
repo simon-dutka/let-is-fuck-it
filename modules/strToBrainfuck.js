@@ -1,5 +1,6 @@
 import getAsciiForString from '../utilities/getAsciiForString.js';
 import findMultiple from '../utilities/findMultiple.js';
+import getBrainFuck from '../utilities/getBrainFuck.js';
 
 let strToCompile = 'Hello world';
 strToCompile = strToCompile.split('');
@@ -18,3 +19,5 @@ for (let i = 0; i < strAsciiCodes.length; i++) {
 
     allMultiples.push(character);
 }
+
+console.log(getBrainFuck(allMultiples));
