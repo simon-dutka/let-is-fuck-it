@@ -6,4 +6,15 @@ strToCompile = strToCompile.split('');
 
 let strAsciiCodes = getAsciiForString(strToCompile);
 
-let multiple;
+let allMultiples = [];
+
+for (let i = 0; i < strAsciiCodes.length; i++) {
+    let multiple = findMultiple(strAsciiCodes[i]);
+    let character = {
+        firstDigit: multiple[0],
+        secondDigit: multiple[1],
+        different: multiple[2],
+    };
+
+    allMultiples.push(character);
+}
